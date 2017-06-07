@@ -5,7 +5,7 @@ More specifically the topics covered in this guideline are listed below:
 * [Naming Conventions](#naming-conventions)
 * [Providing sufficient repository descriptions](#providing-sufficient-repository-descriptions)
 * [Repository Good and Bad Practices](#repository-good-and-bad-practices)
-* [Collaborative coding - Repository Contributors](#collaborative-coding--repository-contributors)
+* [Collaborative coding - Repository Contributors](#collaborative-coding---repository-contributors)
 * [Organization of Repositories](#organization-of-repositories)
 * [Licencing](#licencing) 
 
