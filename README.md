@@ -1,2 +1,9 @@
-# LINCRepoGuidelines
-Repository that provides useful information on how to properly use the Git repository of  the LINC following simple guidelines
+# LINC Git Repository Guidelines
+This repository will  provide basic guidelines on how to properly create and manage Software Repositories that will be hosted under LINC's Git Organization.
+
+More specifically the topics covered in this guidelines are listed below:
+* Naming Conventions
+* Providing sufficient repository descriptions
+* Repository Good and Bad Practices
+* Collaborative coding - Repository Contributors
+* Licencing 
