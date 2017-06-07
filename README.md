@@ -28,7 +28,7 @@ The following list can be used as a checklist in order to properly chose a name 
      
      The names above are too generic and do not provide any useful information about the capabilities and nature of your work.
      
-     **__Good repository naming:__** On the other hand as good repository names based on the example above cane be considered: 
+     **__Good repository naming:__** On the other hand as good repository names based on the example above can be considered: 
      * eclipse-che-aws-orchestration-plugin
      * EclipseCheAWSOrchestrator
 2. **Follow one of the naming conventions below**
@@ -37,7 +37,18 @@ The following list can be used as a checklist in order to properly chose a name 
 3. **Be consistent when naming your repositories**
 
 ## Providing sufficient repository descriptions
+Every repository that is hosted under LINC should have at least **_one_** `README.md` file inside the repository root folder(like the one you are reading now) that contains cobrehensive description of the content of the repository.
 
+Inside the `README.md` one should include:
+1. Short description of the problem that the software is trying to solve.
+2. What was the approach used to solve the problem and the basic features of the software.
+3. Complete and clear step-by-step description of the development and execution environments needed to run the software (e.g., how to resolve dependencies, versions of programming language etc. )
+4. Complete and clear step-by-step description of how to use and run the software.
+5. Explanation of the API/Classes/Functions (with examples if possible)
+6. State what kind of licence is your software under.
+7. List the contributors and contact information.
+
+`README.md` is written in [Markdown language](https://guides.github.com/features/mastering-markdown/). It is advised to use .md files within subfolders of your projects whenever you feel there is a need to explain something specific in detail.
 ## Repository Good and Bad Practices
 
 ## Collaborative Coding - Repository Contributors
