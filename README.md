@@ -57,11 +57,13 @@ A `.gitignore` file specifies intentionally untracked files that Git should igno
 
 Usually when performing commits to your github repository you would like to ignore IDE automatically generated files and folders which usually contain meta-data regarding the structure of your project and folders(e.g., the `.idea\ ` folder automatically created by InteliJ or `.project\ ` folder created by Eclipse ).
 
+* [How to create .gitignore](https://git-scm.com/docs/gitignore)
+
 ### Filetypes in a git repositories
 
 You should keep in mind that github is a software repository and VCS and you have to treat it as such. For this reason you **_should not commit_** other type of files except of source codes.
 
-Especially you should avoid uploading to your repository any kind of **executables** `.exe .bat .sh .jar ...` etc. and other binary type of files. 
+Especially you should avoid uploading to your repository any kind of **executables** `.exe .bat .jar ...` etc. and other binary type of files. 
 
 ### Protecting sensitive information
 In many occasions you will have to write software that it needs to communicate with other systems (such as Databases etc.) that may require authentication or other sensitive information or some local paths on the development machine. Usually this information is used within some kind of configuration file or a source code file itself. 
@@ -71,6 +73,15 @@ When it is time to commit changes to the repo make sure that your files do not c
 It is advised that whenever such occasion occurs add the original files in `.gitignore` and create exact copies of those files with the sensitive information excluded for the commit.
 
 ### Visibility of repositories
+In Git there are two levels of repository visibility:
+1. **Public Repository**: Repositories set to Public are accessible to everyone and appear to search results
+2. **Private Repository**: Repositories set to Private are only accessible by the contributors of the repository, the owners and members of the organization that this repository belongs to.
+
+It is advised that when creating a repository to LINC's Git your repository should be set to **Public**. 
+
+**Private Repositories** at LINC can only be created upon prior with Prof. M. Dikaiakos and Prof. G. Pallis.
+
+* [How to set the visibility of a repository](https://help.github.com/articles/making-a-private-repository-public/)
 
 ## Repository Contributors
 
@@ -91,4 +102,9 @@ As a best practice, we encourage you to include the license file with your proje
 * [Which open-source license to pick](https://choosealicense.com/)
 
 
+## Helpful Material
+
+* [Pro Git book](https://git-scm.com/book/en/v2)
+
+##
 _*Updated on: 8/6/2017_
