@@ -51,6 +51,12 @@ Inside the `README.md` one should include:
 `README.md` is written in [Markdown language](https://guides.github.com/features/mastering-markdown/). It is advised to use .md files within subfolders of your projects whenever you feel there is a need to explain something specific in detail.
 ## Repository Good Practices
 
+### Adding .gitignore
+
+### Filetypes in a git repositories
+
+### Protecting sensitive information
+
 ## Repository Contributors
 
 ## Organization of Repositories
