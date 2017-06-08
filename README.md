@@ -57,6 +57,8 @@ Inside the `README.md` one should include:
 
 ### Protecting sensitive information
 
+### Visibility of repositories
+
 ## Repository Contributors
 
 ## Organization of Repositories
