@@ -49,9 +49,9 @@ Inside the `README.md` one should include:
 7. List the contributors and contact information.
 
 `README.md` is written in [Markdown language](https://guides.github.com/features/mastering-markdown/). It is advised to use .md files within subfolders of your projects whenever you feel there is a need to explain something specific in detail.
-## Repository Good and Bad Practices
+## Repository Good Practices
 
-## Collaborative Coding - Repository Contributors
+## Repository Contributors
 
 ## Organization of Repositories
 
@@ -68,3 +68,6 @@ As a best practice, we encourage you to include the license file with your proje
 
 * [How to add a license to a Github repository](https://help.github.com/articles/licensing-a-repository/#applying-a-license-to-a-repository-with-an-existing-license)
 * [Which open-source license to pick](https://choosealicense.com/)
+
+
+_*Updated on: 8/6/2017_
