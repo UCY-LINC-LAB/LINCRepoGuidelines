@@ -79,9 +79,17 @@ In Git there are two levels of repository visibility:
 
 It is advised that when creating a repository to LINC's Git your repository should be set to **Public**. 
 
-**Private Repositories** at LINC can only be created upon prior with Prof. M. Dikaiakos and Prof. G. Pallis.
+**Private Repositories** at LINC can only be created upon prior communication with Prof. M. Dikaiakos and Prof. G. Pallis.
 
 * [How to set the visibility of a repository](https://help.github.com/articles/making-a-private-repository-public/)
+
+### Example LINC Repositories
+
+Here are some good LINC repositories that follow tha majority of the guidelines provided in this document
+ 
+* https://github.com/UCY-LINC-LAB/CloudServiceDeployer
+* https://github.com/UCY-LINC-LAB/NBAStatsCollector
+* https://github.com/UCY-LINC-LAB/MovieDB
 
 ## Repository Contributors
 
