@@ -5,7 +5,6 @@ More specifically the topics covered in this guideline are listed below:
 * [Naming Conventions](#naming-conventions)
 * [Providing sufficient repository descriptions](#providing-sufficient-repository-descriptions)
 * [Repository Good and Bad Practices](#repository-good-and-bad-practices)
-* [Collaborative coding - Repository Contributors](#collaborative-coding---repository-contributors)
 * [Organization of Repositories](#organization-of-repositories)
 * [Licensing](#licensing) 
 
@@ -91,9 +90,19 @@ Here are some good LINC repositories that follow tha majority of the guidelines 
 * https://github.com/UCY-LINC-LAB/NBAStatsCollector
 * https://github.com/UCY-LINC-LAB/MovieDB
 
-## Repository Contributors
 
 ## Organization of Repositories
+
+Organizations are great for creating distinct groups of users, such as divisions or groups working on similar projects. Public repositories that belong to an organization are accessible to users in other organizations, while private repositories are inaccessible to anyone but members of the organization.
+
+### Teams
+LINC uses teams to create groups of members and control access to repositories. Team members can be granted read, write, or admin permissions to specific repositories.
+
+An example of LINC Teams is the team [ADE2017](https://github.com/orgs/UCY-LINC-LAB/teams/ade2017/repositories) in which the Bsc. Thesis of 2017 students are stored. 
+
+* [Reporisory Permission Levels](https://help.github.com/articles/repository-permission-levels-for-an-organization/)
+
+
 
 ## Licensing
 Public repositories on GitHub are often used to share open source software. For your repository to truly be open source, you'll need to license it so that others are free to use, change, and distribute the software.
@@ -106,12 +115,15 @@ Some projects include information about their license in their README. For examp
 
 As a best practice, we encourage you to include the license file with your project.
 
+The choice of the type of license should be decided with Prof. M. Dikaiakos and Prof. G. Pallis
+
 * [How to add a license to a Github repository](https://help.github.com/articles/licensing-a-repository/#applying-a-license-to-a-repository-with-an-existing-license)
 * [Which open-source license to pick](https://choosealicense.com/)
 
 
 ## Helpful Material
 
+* [Github Help Page](https://help.github.com/)
 * [Pro Git book](https://git-scm.com/book/en/v2)
 
 ##
