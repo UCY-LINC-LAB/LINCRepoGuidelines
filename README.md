@@ -53,9 +53,22 @@ Inside the `README.md` one should include:
 
 ### Adding .gitignore
 
+A `.gitignore` file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected.Each line in a `.gitignore` file specifies a pattern.
+
+Usually when performing commits to your github repository you would like to ignore IDE automatically generated files and folders which usually contain meta-data regarding the structure of your project and folders(e.g., the `.idea\ ` folder automatically created by InteliJ or `.project\ ` folder created by Eclipse ).
+
 ### Filetypes in a git repositories
 
+You should keep in mind that github is a software repository and VCS and you have to treat it as such. For this reason you **_should not commit_** other type of files except of source codes.
+
+Especially you should avoid uploading to your repository any kind of **executables** `.exe .bat .sh .jar ...` etc. and other binary type of files. 
+
 ### Protecting sensitive information
+In many occasions you will have to write software that it needs to communicate with other systems (such as Databases etc.) that may require authentication or other sensitive information or some local paths on the development machine. Usually this information is used within some kind of configuration file or a source code file itself. 
+
+When it is time to commit changes to the repo make sure that your files do not contain sensitive information such as **passwords, local paths, private keys etc.**
+  
+It is advised that whenever such occasion occurs add the original files in `.gitignore` and create exact copies of those files with the sensitive information excluded for the commit.
 
 ### Visibility of repositories
 
