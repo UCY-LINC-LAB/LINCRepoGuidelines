@@ -7,7 +7,7 @@ More specifically the topics covered in this guideline are listed below:
 * [Repository Good and Bad Practices](#repository-good-and-bad-practices)
 * [Collaborative coding - Repository Contributors](#collaborative-coding---repository-contributors)
 * [Organization of Repositories](#organization-of-repositories)
-* [Licencing](#licencing) 
+* [Licensing](#licensing) 
 
 ## Naming Conventions  
 It is important to use proper naming when creating a repository which will be hosted
@@ -55,4 +55,16 @@ Inside the `README.md` one should include:
 
 ## Organization of Repositories
 
-## Licencing
+## Licensing
+Public repositories on GitHub are often used to share open source software. For your repository to truly be open source, you'll need to license it so that others are free to use, change, and distribute the software.
+
+You're under no obligation to choose a license. However, without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. If you're creating an open source project, we strongly encourage you to include an open source license.
+
+Most people place their license text in a file named `LICENSE.txt` (or `LICENSE.md`) in the root of the repository
+
+Some projects include information about their license in their README. For example, a project's README may include a note saying "This project is licensed under the terms of the MIT license."
+
+As a best practice, we encourage you to include the license file with your project.
+
+* [How to add a license to a Github repository](https://help.github.com/articles/licensing-a-repository/#applying-a-license-to-a-repository-with-an-existing-license)
+* [Which open-source license to pick](https://choosealicense.com/)
